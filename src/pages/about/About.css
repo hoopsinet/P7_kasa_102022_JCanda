@@ -1,0 +1,15 @@
+.aboutContent {
+    width : 80%;
+    margin : auto;
+    
+}
+
+.Fiabilité, .Respect, .Service, .Securité{
+margin-top: 3%;
+}
+
+@media all and (max-width:768px) {
+    .aboutContent {
+        width : 100%;
+    }
+}

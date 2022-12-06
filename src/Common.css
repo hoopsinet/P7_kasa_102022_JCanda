@@ -1,0 +1,11 @@
+.main_container {
+    max-width : 1300px;
+    margin : auto;
+}
+
+@media screen and (max-width: 1345px) {
+    .main_container {
+        width : 90%;
+        min-height: 73vh;
+    }
+}

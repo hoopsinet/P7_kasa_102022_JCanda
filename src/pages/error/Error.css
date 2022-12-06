@@ -1,0 +1,38 @@
+.errorTitle, .oups, .error_return {
+    color: #FF6060;
+    text-align: center;
+}
+.error_return{
+    font-size: 18px;
+    text-align: center;
+    display: block;
+}
+
+.errorTitle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 288px;
+    line-height: 142.6%;
+    margin : 0;
+
+}
+
+.oups{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 142.6%;
+    margin-bottom : 150px;
+}
+
+@media screen and (max-width : 768px) {
+    .errorTitle {
+        margin-top : 100px;
+        font-size: 96px;
+    }
+    .oups{
+          font-size: 18px;
+    }
+    .error_return{
+        font-size: 14px;
+    }
+}

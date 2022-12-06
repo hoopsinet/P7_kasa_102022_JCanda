@@ -1,0 +1,54 @@
+.banniere {
+    border-radius: 25px;
+    height : 223px;
+    color : white;
+    background-color : black;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 142.6%;
+    position : relative;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banniere p {
+    position : absolute;
+    margin :0;
+}
+br {
+    display:none;
+}
+
+.banniere_img {
+    width : 100%;
+    height : 100%;
+    object-fit : cover;
+    border-radius : 25px;
+    opacity : 0.7;
+}
+
+@media screen and (max-width: 1345px) {
+    .banniere {
+        font-size : 36px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banniere {
+        height : 111px;
+        font-size : 24px;
+        justify-content : left;
+        border-radius : 10px;
+    }
+    .banniere_img {
+        border-radius : 10px;
+    }
+    .banniere p {
+        padding-left : 5%;
+        text-align : left;
+    }
+    br {
+        display : inline;
+    }
+}

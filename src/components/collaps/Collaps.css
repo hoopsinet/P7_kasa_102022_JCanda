@@ -1,0 +1,37 @@
+.pushdown{
+    font-family: 'montserrat';
+    font-size : 18px;
+    width : 100%;
+    height : 50px;
+    border-radius : 10px;
+    background-color : #fe6262;
+    color : white;
+    padding : 15px;
+    text-align : left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Description, .Équipements{
+    width : 45%;
+}
+
+.content {
+    background-color : #f6f6f5;
+    border-radius : 0 0 10px 0px;
+    color : #fe6262;
+    text-align : left;
+    font-weight :400 ;
+    size :18px ;
+    line-height :25.67px;
+    padding : 25px;
+}
+
+@media screen and (max-width : 768px) {
+.Description, .Équipements {
+    width : 100%;
+    margin-bottom : 5%;
+}
+}

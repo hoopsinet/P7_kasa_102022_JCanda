@@ -1,0 +1,36 @@
+.main_footer {
+    margin-top : 4%;
+    background: #000000;
+    display : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .logo_footer {
+        margin-top : 3%;
+    }
+
+    .footer_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 142.6%;
+
+
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+
+    color: #FFFFFF;
+    }
+
+    @media screen and (max-width: 768px) {
+        .main_footer {
+            padding : 15%;
+        }
+        .footer_text {
+            font-size : 12px;
+        }
+    }

@@ -1,0 +1,45 @@
+.boxStyle {
+    height : 100%;
+    width : 100%;
+    position : relative;
+
+}
+
+.slider {
+    width : 100%;
+    height : 100%;
+    border-radius : 25px;
+    background-position :center;
+    background-size: cover;
+}
+
+
+button {
+    height : 25%;
+    background: none;
+    border : none;
+}
+
+button img {
+    max-height : 100%;
+    cursor: pointer;
+}
+
+.leftBtn {
+   position : absolute;
+   top : 38%;
+   left : 3%;
+}
+
+.rightBtn {
+    position : absolute;
+    top : 38%;
+    right : 3%;
+ }
+
+ .pictureNbr {
+    color : white;
+    position : absolute;
+    left : 50%;
+    bottom : 7%;
+ }

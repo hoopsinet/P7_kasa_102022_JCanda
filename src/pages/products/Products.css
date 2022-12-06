@@ -1,0 +1,165 @@
+.locationInfo {
+    text-align : left;
+    color : #fe6262;
+}
+
+.locationTags {
+    display : flex;
+    flex-wrap: wrap;
+}
+
+.locationTag{
+    border-radius : 10px;
+    background-color : #fe6262;
+    color : white;
+    margin-right : 20px;
+    padding : 5px 45px;
+}
+
+.Box {
+    display : flex;
+    justify-content: space-between;
+    margin-top : 20px;
+}
+.locationTeaser {
+    display : flex;
+    justify-content: space-between;
+}
+
+.location {
+margin-top : 10px;
+display : flex;
+flex-direction: column;
+}
+
+.locationInfo h1 {
+    font-weight: 500;
+    line-height: 142.6%;
+    margin-bottom : 0;
+}
+
+.locationInfo p {
+    margin-top : 0;
+}
+
+.locationMoreInfo {
+    display : flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    width : 30%;
+}
+.hostPicture {
+    border-radius : 50%;
+    width : 64px;
+    height : 64px;
+}
+
+.hostInfo {
+    display : flex;
+    color : #fe6262;
+}
+
+.hostName {
+text-align : right;
+font-size: 18px;;
+word-spacing : 510px;
+margin-right : 15px;
+}
+
+.location {
+    display : flex;
+    justify-content : space-between;
+    padding : 0;
+}
+
+.diapo {
+    width : 100%;
+    height : 415px;
+    margin : 20px auto 0;
+    display : flex;
+  }
+
+.left-arrow {
+    position : absolute;
+    top : 50%;
+    left : 3%;
+    z-index : 10;
+    cursor : pointer;
+    user-select : none;
+}
+
+.right-arrow {
+    position : absolute;
+    top : 50%;
+    right : 3%;
+    z-index : 10;
+    cursor : pointer;
+    user-select : none;
+  }
+
+  .rating {
+    display : flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height : 30%; 
+  }
+
+  .equipmentList {
+    list-style-type: none;
+    padding : 0;
+    margin : 0;
+  }
+
+  .item {
+    line-height: 25.67px;
+  }
+
+  @media screen and (max-width : 992px) {
+    .locationTeaser {
+        flex-direction: column;
+    }
+    .locationMoreInfo {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width : 100%;
+    }
+    .rating {
+        height : 100%; 
+        align-self: center;
+      }
+  }
+
+@media screen and (max-width : 768px) {
+    .Box {
+        flex-direction: column;
+        width : 100%;
+    }
+
+    .locationTags {
+        font-size : 12px;
+    }
+
+    .diapo {
+        height : 255px;
+    }
+}
+@media screen and (max-width : 450px) {
+    .locationMoreInfo {
+        flex-direction : column;
+        align-items: flex-start;
+    }
+    .hostInfo {
+        flex-direction: row-reverse;
+    }
+    .hostName {
+        text-align: left;
+        padding-left : 5%;
+    }
+    .rating {
+        align-self: flex-start;
+    }
+    .locationinfo h1 {
+        font-size: 18px;
+    }
+}
